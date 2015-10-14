@@ -13,6 +13,7 @@ hadoop jar yarn-hazelcast.jar org.starschema.hadoop.yarn.applications.distribute
 Replace the shell_command argument with a file containing commands like:
  
 cd Hazelcast.zip/hazelcast-3.4.6/bin
+
 ./server.sh
 
 DO NOT change the first part (Hazelcast.zip), but change the rest according to start.sh's location inside your Hazelcast zip archive.
